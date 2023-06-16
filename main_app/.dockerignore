@@ -1,0 +1,25 @@
+# 系統檔案和資料夾
+.dockerignore
+.git
+.gitignore
+#.env
+.env.example
+#vendor/
+**/*node_modules
+storage/*.key
+public/storage
+
+# IDE 相關檔案
+.idea
+.phpstorm.meta.php
+.phpstorm.meta.phpstorm.meta
+
+# 測試相關檔案
+phpunit.xml
+tests/
+
+# 其他暫存檔案和資料夾
+.DS_Store
+Thumbs.db
+
+README.md

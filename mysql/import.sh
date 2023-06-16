@@ -1,0 +1,1 @@
+mysql -uroot -p"$MYSQL_ROOT_PASSWORD" house --default-character-set=utf8 < /var/lib/house.sql
